@@ -11,9 +11,7 @@ public class factorial {
     public static BigInteger getNumber() {
         Scanner scanInput = new Scanner(System.in);
         System.out.print("Introduzca un numero: ");
-<<<<<<< HEAD
         BigInteger num = BigInteger.valueOf(scanInput.nextLong());
-=======
         scanInput.close();
         return num;
     }
@@ -21,7 +19,6 @@ public class factorial {
         if (num.compareTo(BigInteger.ZERO)<0) {
             System.out.println("El factorial no esta definido" +
             " para numeros negativos");
->>>>>>> refacIO
         } else {
             BigInteger fac = fact(num);
             System.out.println("El factorial de "+num+" es "+fac);

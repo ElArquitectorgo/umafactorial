@@ -1,0 +1,58 @@
+Para una descripción exhaustiva de cada comando y todos sus posibles
+parámetros consulte el siguiente enlace: https://git-scm.com/docs
+
+Aquí un resumen breve de lo que hace cada comando empleado:
+
+git-init - Create an empty Git repository or reinitialize an existing one
+git-clone - Clone a repository into a new directory
+git-status - Show the working tree status
+git-add - Add file contents to the index
+git-commit - Record changes to the repository
+git-push - Update remote refs along with associated objects
+git-checkout - Switch branches or restore working tree files
+git-merge - Join two or more development histories together
+git-stash - Stash the changes in a dirty working directory away
+
+Ítem 1. git init
+Ítem 1. git clone https://github.com/ElArquitectorgo/umafactorial.git
+Ítem 1. cd umafactorial
+Ítem 2. git status
+Ítem 3. git add factorial.java
+Ítem 3. git commit -m "implementación inicial"
+Ítem 4. git add factorial.java
+Ítem 4. git commit -m "refactorización"
+Ítem 5. git push origin main
+Ítem 5. git checkout -b recursivo
+Ítem 7. git add factorial.java
+Ítem 7. git commit -m "implementación recursiva"
+Ítem 7. git push origin recursivo
+Ítem 8. git checkout main
+Ítem 10. git add factorial.java
+Ítem 10. git commit -m "correción números negativos"
+Ítem 10. git push origin main
+Ítem 11. git checkout recursivo
+Ítem 11. git add factorial.java
+Ítem 11. git commit -m "optimización"
+Ítem 12. git checkout main
+Ítem 12. git merge recursivo
+Ítem 12. git push origin main
+Ítem 13. git checkout -b refacIO
+Ítem 14. git add factorial.java
+Ítem 14. git commit -m "refactorización de método de entrada"
+Ítem 15. git stash
+Ítem 15. git checkout main
+Ítem 16. git add factorial.java
+Ítem 16. git commit -m "cambio de long a BigInteger"
+Ítem 16. git push origin main
+Ítem 16. git checkout refacIO
+Ítem 16. git stash pop
+Ítem 16. git add factorial.java
+Ítem 16. git commit -m "refactorización de método de salida"
+Ítem 17. git checkout main
+Ítem 17. git merge refacIO
+Ítem 19. git add factorial.java
+Ítem 19. git commit -m "mezcla de rama refacIO"
+Ítem 19. git push origin main
+Ítem 21. git add factorial.java
+Ítem 21. git commit -m "adición de historial de línea de comandos"
+Ítem 22. git push --all origin
